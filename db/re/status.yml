@@ -1597,6 +1597,12 @@ Body:
       NoDispell: true
       NoClearance: true
       NoSaveInfinite: true
+  - Status: EMERGENCYCALL
+    Icon: EFST_EMERGENCYCALL
+    DurationLookup: GD_EMERGENCYCALL
+    Flags:
+      NoRemoveOnDead: true
+      NoDispell: true
   - Status: Doublecast
     Icon: EFST_DOUBLECASTING
     DurationLookup: PF_DOUBLECASTING
@@ -2671,6 +2677,7 @@ Body:
       NoBanishingBuster: true
       NoClearance: true
   - Status: Pneuma
+    Icon: EFST_PNEUMA
     DurationLookup: AL_PNEUMA
     Flags:
       NoClearbuff: true

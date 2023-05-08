@@ -2115,6 +2115,11 @@ int map_quit(map_session_data *sd) {
 				status_change_end(&sd->bl, static_cast<sc_type>(it.first));
 				continue;
 			}
+
+			if (!battle_config.guild_skill_relog_delay) {
+				status_change_end(&sd->bl, SC_EMERGENCYCALL, INVALID_TIMER);
+			}
+
 			//Removes status by config
 			if (battle_config.debuff_on_logout&1 && flag[SCF_DEBUFF] || //Removes debuffs
 				(battle_config.debuff_on_logout&2 && !(flag[SCF_DEBUFF]))) //Removes buffs

@@ -44775,11 +44775,13 @@ Body:
       IgnoreKagehumi: true
     CastCancel: true
     Cooldown: 300000
+    Duration2: 300000
     FixedCastTime: 5000
     CastTimeFlags:
       IgnoreDex: true
       IgnoreStatus: true
       IgnoreItemBonus: true
+    Status: EMERGENCYCALL
   - Id: 10014
     Name: GD_DEVELOPMENT
     Description: Permanent Development

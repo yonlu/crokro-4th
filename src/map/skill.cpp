@@ -10258,12 +10258,14 @@ int skill_castend_nodamage_id (struct block_list *src, struct block_list *bl, ui
 						called++;
 				}
 			}
-			if (sd)
+			if (sd) {
 #ifdef RENEWAL
 				skill_blockpc_start(sd, skill_id, skill_get_cooldown(skill_id, skill_lv));
 #else
 				guild_block_skill(sd, skill_get_time2(skill_id, skill_lv));
 #endif
+				status_change_start(src, src, SC_EMERGENCYCALL, 10000, 1, 0, 0, 0, 300000, 0); 
+			}
 		}
 		break;
 	case GD_CHARGESHOUT_FLAG:
@@ -14522,7 +14524,7 @@ std::shared_ptr<s_skill_unit_group> skill_unitsetting(struct block_list *src, ui
 	case WZ_QUAGMIRE:	//The target changes to "all" if used in a gvg map. [Skotlex]
 	case AM_DEMONSTRATION:
 		if (battle_config.vs_traps_bctall && (src->type&battle_config.vs_traps_bctall) && map_flag_vs(src->m))
-			target = BCT_ALL;
+			target = (BCT_NOGUILD & BCT_ENEMY & BCT_NOPARTY);
 		break;
 	case HT_SKIDTRAP:
 	case MA_SKIDTRAP:
