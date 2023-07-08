@@ -68,10 +68,10 @@ OnRecvCastlePt01:
 	end;
 }
 
-prt_gld,131,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#1-2	722
-prt_gld,138,68,6	duplicate(OutsideFlagsPR1)	Kriemhild#2	722
-prt_gld,138,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#3	722
-prt_gld,135,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#4	722
+//prt_gld,131,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#1-2	722
+//prt_gld,138,68,6	duplicate(OutsideFlagsPR1)	Kriemhild#2	722
+//prt_gld,138,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#3	722
+//prt_gld,135,60,6	duplicate(OutsideFlagsPR1)	Kriemhild#4	722
 
 // Guild Flags (Inside Castle)
 //============================================================
@@ -96,7 +96,7 @@ prtg_cas01,45,46,4	duplicate(InsideFlagsPR1)	Kriemhild#14	722
 
 // Guild Flag (Town)
 //============================================================
-prontera,155,190,4	duplicate(InsideFlagsPR1)	Kriemhild#15	722
+//prontera,155,190,4	duplicate(InsideFlagsPR1)	Kriemhild#15	722
 
 // Kafra Employee
 //============================================================

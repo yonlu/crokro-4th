@@ -293,6 +293,224 @@ Body:
     Weight: 0
     Script: |
       rentitem 23353,259200;
+  - Id: 250001
+    AegisName: kakashi
+    Name: Bandana de Kakashi
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 2500
+    EquipLevelMin: 1
+    Script: |
+      bonus bIntravision;
+      bonus bIgnoreDefClass,Class_Normal;
+      bonus bStr,15;
+      bonus bAgi,20;
+      bonus bDex,25;
+      bonus bMdef,10;
+  - Id: 250002
+    AegisName: Checkered_Cap
+    Name: Chapeu de Taxista
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    View: 2501
+    EquipLevelMin: 1
+    Script: |
+      bonus bAllStats,50;
+      bonus2 bSubRace,RC_DemiPlayer,40;
+  - Id: 250015
+    AegisName: ELECTRIC_BLUE
+    Name: Electric Blue
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 2516
+    EquipLevelMin: 1
+    Script: |
+      bonus bStr,5;
+      bonus bAgi,15;
+      bonus bVit,5;
+      bonus bInt,15;
+      bonus bDex,5;
+      bonus bLuk,15;
+      if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+        bonus bVit,5;
+        bonus bInt,10;
+        bonus bLuk,10;
+        bonus bMdef,10;
+        bonus2 bMagicAddRace,RC_DemiPlayer,10;
+      }
+  - Id: 250017
+    AegisName: ELECTRIC_RED
+    Name: Electric Red
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 2518
+    EquipLevelMin: 1
+    Script: |
+      bonus bStr,15;
+      bonus bAgi,5;
+      bonus bVit,15;
+      bonus bInt,5;
+      bonus bDex,15;
+      bonus bLuk,5;
+      if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+        bonus bStr,10;
+        bonus bVit,5;
+        bonus bLuk,5;
+        bonus bMdef,10;
+        bonus2 bAddClass,Class_All,10;
+      }
+  - Id: 250018
+    AegisName: ELECTRIC_PURPLE
+    Name: Electric Purple
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 2519
+    EquipLevelMin: 1
+    Script: |
+      bonus bAllStats,10;
+      bonus bMdef,10;
+      if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+        bonus bAllStats,10;
+        bonus2 bSubRace,RC_DemiPlayer,10;
+      }
+  - Id: 250040
+    AegisName: Jewel_of_Strength
+    Name: Jewel of Strength
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus bBaseAtk,5;
+      bonus bStr,10;
+      bonus bMdef,3;
+  - Id: 250041
+    AegisName: Jewel_of_Agility
+    Name: Jewel of Agility
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus bFlee,50;
+      bonus bAgi,10;
+      bonus bMdef,3;
+  - Id: 250042
+    AegisName: Jewel_of_Vitality
+    Name: Jewel of Vitality
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus bMaxHPrate,5;
+      bonus bMaxSPrate,5;
+      bonus bVit,10;
+      bonus bMdef,3;
+  - Id: 250043
+    AegisName: Jewel_of_Magic
+    Name: Jewel of Magic
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus2 bMagicAddRace,RC_All,5;
+      bonus bInt,10;
+      bonus bMdef,3;
+  - Id: 250044
+    AegisName: Jewel_of_Dexterity
+    Name: Jewel of Dexterity
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus bLongAtkRate,5;
+      bonus bDex,10;
+      bonus bMdef,3;
+  - Id: 250045
+    AegisName: Jewel_of_Defense
+    Name: Jewel of Defense
+    Type: Armor
+    Buy: 15000
+    Weight: 100
+    Slots: 1
+    Jobs:
+      All: true
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    Script: |
+      bonus2 bSubRace,RC_DemiPlayer,5;
+      bonus bLuk,10;
+      bonus bMdef,3;
 
 Footer:
   Imports:
