@@ -1,0 +1,509 @@
+{
+	Id: 250001
+	AegisName: "kakashi"
+	Name: "Bandana de Kakashi"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2006
+	Script: <"
+      bonus bMdef,10;
+      bonus bStr,15;
+      bonus bAgi,20;
+      bonus bDex,25;
+      bonus bIgnoreDefRace,7;
+      bonus bIntravision,1;
+	">
+},
+{
+	Id: 250002
+	AegisName: "Checkered_Cap"
+	Name: "Chapeu de Taxista"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2007
+	Script: <"
+      bonus bAllStats,50;
+      bonus2 bSubRace,RC_DemiHuman,40;
+	">
+},
+{
+	Id: 250003
+	AegisName: "Asa_Preta"
+	Name: "Asa Preta"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_MID"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2008
+	Script: <"
+      bonus bAllStats,20;
+	">
+},
+{
+	Id: 250004
+	AegisName: "asas_verdes_metal"
+	Name: "Asas Verdes Metal"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_MID"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2009
+	Script: <"
+      bonus bStr,10;
+      bonus bVit,15;
+      bonus bSpeedRate,1000;
+	">
+},
+{
+	Id: 250005
+	AegisName: "Circulo_de_Poder"
+	Name: "Circulo de Poder"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2010
+	Script: <"
+      bonus bAllStats,15;
+      bonus bMaxHPrate,20;
+      bonus bMaxSPrate,20;
+	">
+},
+{
+	Id: 250006
+	AegisName: "Asa_da_Retribuicao"
+	Name: "Asa da Retribuicao"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_MID"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2011
+	Script: <"
+      bonus bAllStats,20;
+      skill "MO_TRIPLEATTACK",10;
+	">
+},
+{
+	Id: 250007
+	AegisName: "Rabo_de_Gato"
+	Name: "Rabo de Gato"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2012
+	Script: <"
+      bonus bStr,30;
+      bonus2 bAddRace,7,20;
+	">
+},
+{
+	Id: 250008
+	AegisName: "phoenix_wing"
+	Name: "Phoenix Wing"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_MID"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2013
+	Script: <"
+      bonus bAllStats,50;
+      bonus bIgnoreDefEle,3;
+      bonus2 bAddEle,3,25;
+	">
+},
+{
+	Id: 250009
+	AegisName: "golden_valk"
+	Name: "Golden Valk"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2014
+	Script: <"
+      bonus bAllStats,50;
+      bonus bNoCastCancel2,1;
+      bonus bNoGemStone,1;
+      bonus bRestartFullRecover,0;
+	">
+},
+{
+	Id: 250010
+	AegisName: "Sygnun_Helm"
+	Name: "Sygnun Helm"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2015
+	Script: <"
+      skill "CR_FULLPROTECTION",5;
+	">
+},
+{
+	Id: 250011
+	AegisName: "ADM"
+	Name: "ADM Sign"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2016
+},
+{
+	Id: 250012
+	AegisName: "GM"
+	Name: "GM Sign"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2017
+},
+{
+	Id: 250013
+	AegisName: "CM"
+	Name: "CM Sign"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2018
+},
+{
+	Id: 250014
+	AegisName: "EM"
+	Name: "EM Sign"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_TOP"
+	Slots: 4
+	Refine: true
+	ViewSprite: 2019
+},
+{
+	Id: 250015
+	AegisName: "Electric_Blue"
+	Name: "Electric Blue"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2020
+	Script: <"
+      bonus bStr,5;
+      bonus bAgi,15;
+      bonus bVit,5;
+      bonus bInt,15;
+      bonus bDex,5;
+      bonus bLuk,15;
+	  if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+		bonus bVit,5;
+		bonus bInt,10;
+		bonus bLuk,10;
+		bonus bMdef,10;
+		bonus2 bMagicAddRace,RC_DemiPlayer,10;
+	  }
+	">
+},
+{
+	Id: 250016
+	AegisName: "Electric_YL"
+	Name: "Electric Yellow"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2021
+},
+{
+	Id: 250017
+	AegisName: "Electric_Red"
+	Name: "Electric Red"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2022
+	Script: <"
+      bonus bStr,15;
+      bonus bAgi,5;
+      bonus bVit,15;
+      bonus bInt,5;
+      bonus bDex,15;
+      bonus bLuk,5;
+	  if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+		bonus bStr,10;
+		bonus bVit,5;
+		bonus bLuk,5;
+		bonus bMdef,10;
+		bonus2 bAddRace, RC_All, 10;
+	  }
+	">
+},
+{
+	Id: 250018
+	AegisName: "Electric_Purple"
+	Name: "Electric Purple"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2023
+	Script: <"
+      bonus bAllStats,10;
+	  bonus bMdef,10;
+	  if (getequiprefinerycnt(EQI_HEAD_LOW) >= 10) {
+        bonus bAllStats,10;
+		bonus2 bSubRace,RC_DemiPlayer,10;
+		bonus bMdef,5;
+	  }
+	">
+},
+{
+	Id: 250019
+	AegisName: "Electric_Orange"
+	Name: "Electric Orange"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2024
+},
+{
+	Id: 250020
+	AegisName: "Electric_Green"
+	Name: "Electric Green"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2025
+},
+{
+	Id: 250021
+	AegisName: "Electric_White"
+	Name: "Electric White"
+	Type: "IT_ARMOR"
+	Buy: 5000
+	Weight: 100
+	Loc: "EQP_HEAD_LOW"
+	Slots: 1
+	Refine: true
+	ViewSprite: 2026
+},
+{
+	Id: 250022
+	AegisName: "Destruction_Staff"
+	Name: "Destruction Staff"
+	Type: "IT_WEAPON"
+	Buy: 100000000
+	Atk: 70
+	Range: 1
+	Weight: 100
+	Loc: "EQP_WEAPON"
+	WeaponLv: 4
+	EquipLv: 1
+	Subtype: "W_STAFF"
+	Slots: 4
+	Script: <"
+		bonus bInt,10;
+		bonus bDex,5;
+		bonus bMatkRate,20;
+		if(getrefine()>9) {
+			bonus bInt,10;
+			bonus bDex,5;
+			bonus2 bIgnoreMdefRate,RC_DemiPlayer,25;
+		}
+	">
+},
+{
+	Id: 250040
+	AegisName: "Destruction_Staff"
+	Name: "Destruction Staff"
+	Type: "IT_WEAPON"
+	Buy: 100000000
+	Atk: 70
+	Range: 1
+	Weight: 100
+	Loc: "EQP_WEAPON"
+	WeaponLv: 4
+	EquipLv: 1
+	Subtype: "W_STAFF"
+	Slots: 4
+	Script: <"
+		bonus bInt,10;
+		bonus bDex,5;
+		bonus bMatkRate,20;
+		if(getrefine()>9) {
+			bonus bInt,10;
+			bonus bDex,5;
+			bonus2 bIgnoreMdefRate,RC_DemiPlayer,25;
+		}
+	">
+},
+{
+	Id: 250040
+	AegisName: "Jewel_of_Strength"
+	Name: "Jewel of Strength"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus bBaseAtk,5;
+		bonus bStr,10;
+		bonus bMdef,3;
+	">
+},
+{
+	Id: 250041
+	AegisName: "Jewel_of_Agility"
+	Name: "Jewel of Agility"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus bFlee,50;
+		bonus bAgi,10;
+		bonus bMdef,3;
+	">
+},
+{
+	Id: 250042
+	AegisName: "Jewel_of_Vitality"
+	Name: "Jewel of Vitality"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus bMaxHPrate,5;
+		bonus bMaxSPrate,5;
+		bonus bVit,10;
+		bonus bMdef,3;
+	">
+},
+{
+	Id: 250043
+	AegisName: "Jewel_of_Magic"
+	Name: "Jewel of Magic"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus2 bMagicAddRace,RC_All,5;
+		bonus bInt,10;
+		bonus bMdef,3;
+	">
+},
+{
+	Id: 250044
+	AegisName: "Jewel_of_Dexterity"
+	Name: "Jewel of Dexterity"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus bLongAtkRate,5;
+		bonus bDex,10;
+		bonus bMdef,3;
+	">
+},
+{
+	Id: 250045
+	AegisName: "Jewel_of_Defense"
+	Name: "Jewel of Defense"
+	Type: "IT_ARMOR"
+	Buy: 100000000
+	Weight: 100
+	Job: {
+		All: true
+	}
+	Loc: "EQP_ACC"
+	EquipLv: 1
+	Refine: false
+	Slots: 1
+	Script: <"
+		bonus2 bSubRace,RC_DemiPlayer,5;
+		bonus bLuk,10;
+		bonus bMdef,3;
+	">
+},

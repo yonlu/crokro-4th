@@ -134,7 +134,7 @@ Body:
       Star_Gladiator: true
       Star_Gladiator2: true
       Soul_Linker: true
-    MaxBaseLevel: 99
+    MaxBaseLevel: 255
     BaseExp:
       - Level: 1
         Exp: 9
@@ -357,7 +357,7 @@ Body:
       Clown: true
       Gypsy: true
       Paladin2: true
-    MaxBaseLevel: 99
+    MaxBaseLevel: 255
     BaseExp:
       - Level: 1
         Exp: 10

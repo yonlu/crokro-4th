@@ -2,9 +2,9 @@ userid: username
 
 passwd: password
 
-login_ip: 127.0.0.1
+login_ip: localhost
 
-char_ip: 127.0.0.1
+char_ip: localhost
 
 server_name: Kurama Ragnarok
 
